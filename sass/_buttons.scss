@@ -1,0 +1,21 @@
+
+%btn {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+
+  &:hover{
+      transform: scale(1.1,1.1);
+      background-color: white;
+      color: $primary;
+  }
+}
+
+
+.g-btn__hero {
+  @extend %btn;
+  background-color: $primary;
+  color: inherit;
+
+}

@@ -1,0 +1,57 @@
+@import "_variables.scss";
+
+.g-hero__top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbeeacb2;
+  padding: 0 40px 0 40px;
+  height: auto;
+}
+
+.g-hero {
+  height: 92vh;
+  background-color: $secondary;
+  color: white;
+  overflow: hidden;
+
+p{
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+
+    animation: slideIN 2s;
+
+
+    button {
+      display: block;
+      margin-top: 40px;
+    }
+    img {
+      margin-top: 10px;
+      max-width: 420px;
+    }
+
+    &__text {
+      margin-top: 80px;
+      width: 50%;
+
+      h1 {
+        font-size: 45px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+header p {
+  margin: 0;
+  padding: 0;
+}
+

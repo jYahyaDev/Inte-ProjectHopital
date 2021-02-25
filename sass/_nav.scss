@@ -1,0 +1,50 @@
+nav {
+  width: 80%;
+  box-sizing: border-box;
+  text-align: right;
+
+  li {
+    display: inline-block;
+
+    position: relative;
+
+    a {
+      display: block;
+      padding: 10px;
+ 
+
+      &:hover {
+        border-bottom: 2px solid $primary;
+       
+      }
+    }
+
+
+    &:hover .nav__sub {
+      display: block;
+      white-space: nowrap;
+      padding: 0;
+      color: black;
+
+     li{
+        
+        &:hover{
+            background-color: $primary;
+            color: white;
+           
+        }
+     }
+      
+    }
+  }
+
+}
+  
+
+
+.nav__sub {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+

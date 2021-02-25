@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.g-hero__top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbeeacb2;
+  padding: 0 40px 0 40px;
+  height: auto;
+}
+
+.g-hero {
+  height: 92vh;
+  background-color: #28527a;
+  color: white;
+  overflow: hidden;
+}
+.g-hero p {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.g-hero__content {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  animation: slideIN 2s;
+}
+.g-hero__content button {
+  display: block;
+  margin-top: 40px;
+}
+.g-hero__content img {
+  margin-top: 10px;
+  max-width: 420px;
+}
+.g-hero__content__text {
+  margin-top: 80px;
+  width: 50%;
+}
+.g-hero__content__text h1 {
+  font-size: 45px;
+}
+.g-hero__content__text p {
+  font-size: 20px;
+}
+
+header p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 80%;
+  box-sizing: border-box;
+  text-align: right;
+}
+nav li {
+  display: inline-block;
+  position: relative;
+}
+nav li a {
+  display: block;
+  padding: 10px;
+}
+nav li a:hover {
+  border-bottom: 2px solid #00bfba;
+}
+nav li:hover .nav__sub {
+  display: block;
+  white-space: nowrap;
+  padding: 0;
+  color: black;
+}
+nav li:hover .nav__sub li:hover {
+  background-color: #00bfba;
+  color: white;
+}
+
+.nav__sub {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+@keyframes slideIN {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.g-btn__hero {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
+.g-btn__hero:hover {
+  transform: scale(1.1, 1.1);
+  background-color: white;
+  color: #00bfba;
+}
+
+.g-btn__hero {
+  background-color: #00bfba;
+  color: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */
