@@ -71,6 +71,16 @@ header p {
   padding: 0;
 }
 
+.g-btn__hero {
+  background-color: #00bfba;
+  color: inherit;
+}
+.g-btn__hero:hover {
+  transform: scale(1.1, 1.1);
+  background-color: white;
+  color: #00bfba;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -128,16 +138,6 @@ nav li:hover .nav__sub li:hover {
   border: none;
   font-weight: bold;
 }
-.g-btn__hero:hover {
-  transform: scale(1.1, 1.1);
-  background-color: white;
-  color: #00bfba;
-}
-
-.g-btn__hero {
-  background-color: #00bfba;
-  color: inherit;
-}
 
 .g-serv {
   max-width: 90%;
@@ -152,6 +152,7 @@ nav li:hover .nav__sub li:hover {
   font-size: inherit;
   background-color: #28527a;
   color: white;
+  cursor: pointer;
 }
 .g-serv__btn::after {
   content: "+";
