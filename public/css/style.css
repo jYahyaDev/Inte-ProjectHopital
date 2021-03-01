@@ -139,4 +139,46 @@ nav li:hover .nav__sub li:hover {
   color: inherit;
 }
 
+.g-serv {
+  max-width: 90%;
+  margin: 40px auto;
+}
+.g-serv__btn {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: inherit;
+  background-color: #28527a;
+  color: white;
+}
+.g-serv__btn::after {
+  content: "+";
+  float: right;
+  right: 0;
+}
+.g-serv__btn:hover {
+  background-color: #00bfba;
+  color: white;
+  font-weight: bold;
+}
+.g-serv__btn:focus {
+  outline: none;
+}
+.g-serv__content {
+  display: none;
+  padding: 10px;
+}
+
+.visible {
+  display: block;
+  background-color: #28527a;
+  color: white;
+  font-weight: bold;
+}
+.visible::after {
+  content: "-";
+}
+
 /*# sourceMappingURL=style.css.map */

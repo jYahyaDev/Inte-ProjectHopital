@@ -1,0 +1,51 @@
+.g-serv{
+  max-width: 90%;
+  margin: 40px auto;
+
+  &__btn{
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: inherit;
+    background-color: $secondary;
+    color: white;
+
+
+    &::after{
+      content: "+";
+
+      float: right;
+      right: 0;
+    }
+
+    &:hover{
+      background-color: $primary;
+      color: white;
+      font-weight: bold;
+    }
+
+    &:focus{
+      outline: none;
+
+
+    }
+  }
+  &__content{
+    display: none;
+    padding: 10px;
+
+  }
+
+}
+
+.visible{
+  display: block;
+  background-color: $secondary;
+  color: white;
+  font-weight: bold;
+  &::after{
+   content: "-";
+  }
+}
