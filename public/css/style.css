@@ -182,4 +182,31 @@ nav li:hover .nav__sub li:hover {
   content: "-";
 }
 
+.g-about {
+  max-width: 90%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4D160;
+  padding: 50px;
+}
+.g-about__text {
+  width: 50%;
+  line-height: 25px;
+}
+.g-about__features {
+  margin: 0 auto;
+  align-items: center;
+  font-size: 25px;
+}
+
+.animation {
+  animation: slideIN 2s;
+}
+
+.invisible {
+  opacity: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
